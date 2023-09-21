@@ -7,6 +7,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'next/core-web-vitals',
   ],
   overrides: [
     {
@@ -30,5 +31,6 @@ module.exports = {
     'no-console': ['error'],
     'prefer-const': ['error'],
     'no-undef': ['off'],
+    '@typescript-eslint/no-explicit-any': ['off'],
   },
 };
